@@ -1,0 +1,5 @@
+Site is pushed and current:
+https://raw.githubusercontent.com/jalexlang-lab/callanhouserail-site/main/public/index.html
+
+Scope: [which sections / what kind of change]
+Constraints: [anything off-limits]

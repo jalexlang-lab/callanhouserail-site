@@ -126,7 +126,7 @@ h2{font-family:var(--display);font-weight:500;text-transform:uppercase;letter-sp
 .lane:hover li{border-color:#b6b2a3}
 .lane li:hover{border-color:var(--amber);color:var(--ink);background:#f7f0dc}
 
-/* ---------- How we work ---------- */
+/* ---------- How I work ---------- */
 .instructions{background:var(--paper-deep)}
 .inst-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:8px}
 .inst{border-top:2px solid var(--ink);padding-top:18px;position:relative}

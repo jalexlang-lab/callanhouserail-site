@@ -78,12 +78,10 @@ h1 .llc{display:block;font-size:.34em;font-weight:400;letter-spacing:.34em;color
 .cover-rule span{display:flex;align-items:baseline;gap:.55em}
 .cover-rule b{color:var(--amber-bright);font-weight:500;font-size:1.02rem;letter-spacing:.02em}
 
-/* Rail motif closing the cover */
-.railline{position:relative;height:16px;background:var(--cover)}
-.railline::before{content:"";position:absolute;inset:0;
-  background:repeating-linear-gradient(90deg,rgba(147,153,160,.22) 0 2px,transparent 2px 16px)}
-.railline::after{content:"";position:absolute;left:0;right:0;top:5px;height:6px;
-  border-top:1px solid rgba(201,198,186,.35);border-bottom:1px solid rgba(201,198,186,.35)}
+/* Double rule closing the cover */
+.railline{height:5px;background:var(--cover);
+  border-top:3px solid var(--amber-bright);
+  border-bottom:1px solid var(--rule-dark)}
 
 /* ---------- Buttons ---------- */
 .btn{display:inline-flex;align-items:center;gap:.7em;font-family:var(--display);text-transform:uppercase;
